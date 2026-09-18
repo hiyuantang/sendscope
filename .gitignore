@@ -1,0 +1,27 @@
+.build/
+.cache/
+.runtime/
+dist/
+work/
+.DS_Store
+__pycache__/
+*.pyc
+.swiftpm/
+
+# Local configuration, traffic captures, and inspection certificates
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.cer
+*.der
+*.pcap
+*.pcapng
+*.har
+*.mitm
+*.log
+history.json
+certificates/
